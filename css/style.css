@@ -87,6 +87,95 @@
     .pic-four {
         background-image: url(../img/haven.png);
     }
+
+    .skills {
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .skills > p {
+        margin: 0;
+    }
+
+    .skills:before {
+        width: 100%;
+        height: 5px;
+        content: "";
+        display: block;
+        position: absolute;
+        background: rgb(255,255,255);
+        bottom: 0;
+    }
+
+    .skill-bar {
+        width: 100%;
+        height: 5px;
+        background: rgb(71, 207, 115);
+        display: block;
+        position: relative;
+    }
+
+    .skill1 {
+        width: 95%;
+    }
+    .skill2 {
+        width: 92%;
+    }
+    .skill3 {
+        width: 90%;
+    }
+    .skill4 {
+        width: 90%;
+    }
+    .skill5 {
+        width: 86%;
+    }
+    .skill6 {
+        width: 86%;
+    }
+    .skill7 {
+        width: 85%;
+    }
+    .skill8 {
+        width: 85%;
+    }
+    .skill9 {
+        width: 82%;
+    }
+    .skill10 {
+        width: 80%;
+    }
+    .skill11 {
+        width: 75%;
+    }
+    .skill12 {
+        width: 70%;
+    }
+    .skill13 {
+        width: 70%;
+    }
+    .skill14 {
+        width: 65%;
+    }
+    .skill15 {
+        width: 62%;
+    }
+    .skill16 {
+        width: 60%;
+    }
+    .skill17 {
+        width: 55%;
+    }
+    .skill18 {
+        width: 47%;
+    }
+    .skill19 {
+        width: 42%;
+    }
+    .skill20 {
+        width: 40%;
+    }
     
     footer {
         text-align: center;
