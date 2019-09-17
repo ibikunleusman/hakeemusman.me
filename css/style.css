@@ -1,0 +1,108 @@
+/* 	Author: Hakeem Usman;
+	Version: 1.0;
+	Date: 09/03/2019; */
+
+    @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    /*	Sections */
+    .content-big-padding {
+        padding: 120px 0px;
+    }
+    
+    .section-resume, .section-portfolio, footer {
+        color: rgb(255,255,255);
+        font-weight: normal;
+    }
+    
+    .section-education, .section-skills {
+        color: rgb(255,255,255);
+        font-weight: normal;
+    }
+    
+    h2, .header-text p {
+        text-align: center;
+    }
+    
+    h3, h4 {
+        font-size: 20px;
+    }
+    
+    img.section {
+        border-radius: 12px;
+    }
+    
+    .add-space {
+        padding: 20px;
+    }
+    
+    .main-text {
+        font-weight: bold;
+    }
+    
+    .description-text {
+        font-weight: normal;
+    }
+    
+    .location-text {
+        font-weight: normal;
+        color: rgb(34,163,159);
+    }
+    
+    .light {
+        border: 1px solid white;
+    }
+    
+    .dark {
+        border: 1px solid black;
+    }
+    
+    .portfolio-image {
+        text-align: center;
+        padding: 45px 0 66px 0;
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+    }
+    
+    .pic-one,.pic-two,.pic-three,.pic-four {
+        background-size: cover;
+    }
+    
+    .pic-one {
+        background-image: url(../img/github.jpg);
+    }
+    
+    .pic-two {
+        background-image: url(../img/vuit.png);
+    }
+    
+    .pic-three {
+        background-image: url(../img/hakstocks.PNG);
+    }
+    
+    .pic-four {
+        background-image: url(../img/haven.png);
+    }
+    
+    footer {
+        text-align: center;
+    }
+
+    .grayscale {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -webkit-transition: all .6s ease;
+        transition: all .6s ease;
+    }
+    
+    
+    
+    .grayscale:hover {
+        filter: none;
+        -webkit-filter: grayscale(0%);
+        border: 2px solid green;
+    }
