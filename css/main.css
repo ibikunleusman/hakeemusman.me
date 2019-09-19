@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Manjari|Montserrat|Orbitron|Playfair+Display|Poppins|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari|Montserrat|Muli|Orbitron|Playfair+Display|Raleway&display=swap');
 
 html, body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Muli', sans-serif !important;
     background: rgb(0, 0, 0) !important;
     color: rgb(255, 255, 255);
     text-transform: lowercase;
@@ -120,120 +120,6 @@ html, body {
 
 h6 {
     text-align:center;
-}
-
-.vertical {
-    margin-top: 40px;
-    border-left: 1px solid rgb(255, 255, 255);
-    height: 80px;
-    position: absolute;
-    left: 50%;
-}
-
-.portfolio {
-    height: 500px;
-}
-
-.portfolio1 {
-    background: url('../img/haven.png') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.portfolio1::after {
-    content: "haklist demo";
-    font-family: 'Playfair Display';
-    font-size: 36px;
-    position: relative;
-    color: rgb(255, 255, 255);
-    display: block;
-    top: 8%;
-    left: -60%;
-    right: 0;
-    bottom: 0;
-}
-
-.portfolio2 {
-    background: url('../img/gregg.png') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.portfolio2::after {
-    content: "portfolio template demo";
-    font-family: 'Playfair Display';
-    font-size: 36px;
-    position: relative;
-    color: rgb(255, 255, 255);
-    display: block;
-    top: 80%;
-    left: 90%;
-    right: 0;
-    bottom: 0;
-}
-
-.portfolio3 {
-    background: url('../img/gregg.png') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.portfolio3::after {
-    content: "e-commerce demo";
-    font-family: 'Playfair Display';
-    font-size: 36px;
-    position: relative;
-    color: rgb(255, 255, 255);
-    display: block;
-    top: 80%;
-    left: -50%;
-    right: 0;
-    bottom: 0;
-}
-
-.portfolio4 {
-    background: url('../img/gregg.png') no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.portfolio4::after {
-    content: "some demo";
-    font-family: 'Playfair Display';
-    font-size: 36px;
-    position: relative;
-    color: rgb(255, 255, 255);
-    display: block;
-    top: 10%;
-    left: 90%;
-    right: 0;
-    bottom: 0;
-}
-
-@media(max-width: 767px) {
-    project {
-        width: 90% !important;
-        margin: 14px auto;
-    }
-
-    .vertical {
-        display: none;
-    }
-
-    .portfolio1::after, .portfolio2::after, .portfolio3::after, .portfolio4::after {
-        display: none;
-    }
-}
-
-@media(max-width: 1020px) {
-    project {
-        width: 90% !important;
-        margin: 14px auto;
-    }
-
-    .vertical {
-        display: none;
-    }
-
-    .portfolio1::after, .portfolio2::after, .portfolio3::after, .portfolio4::after {
-        display: none;
-    }
 }
 
 .contact {
